@@ -330,3 +330,21 @@ td:first-child {
   text-decoration: underline;
 }
 
+@media (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    order: 999;  /* スマホで画像を一番下に */
+  }
+
+  .intro-text {
+    width: 100%;
+    text-align: left;
+  }
+}
+
