@@ -142,6 +142,7 @@ td:first-child {
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
+    order: 999;  /* スマホで画像を一番下に */
   }
 
   .intro-text {
@@ -149,6 +150,8 @@ td:first-child {
     text-align: left;
   }
 }
+
+
 .hero-text h1 span {
   display: block; 
   margin-bottom: 10px; 
