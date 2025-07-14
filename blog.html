@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Rui's Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="navbar-left"><a href="index.html">← Back</a></div>
+  <div class="navbar-right">Rui's Blog</div>
+</header>
+
+<section class="blog">
+  <h2>Write a Blog Post</h2>
+  <input type="text" id="blog-title" placeholder="Title"><br>
+  <textarea id="blog-content" placeholder="What's on your mind?"></textarea><br>
+  <input type="file" id="blog-image"><br>
+  <button id="post-blog">Post</button>
+</section>
+
+<hr>
+
+<section id="blog-list"></section>
+
+<script src="blog.js"></script>
+</body>
+</html>
