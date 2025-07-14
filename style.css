@@ -133,7 +133,7 @@ td:first-child {
   flex-shrink: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .intro {
     flex-direction: column;
   }
